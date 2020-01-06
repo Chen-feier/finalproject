@@ -27,27 +27,28 @@
 
 我们一共有11个HTML页面：
 
-* 其中index.html是首页，主要呈现我们的数据故事。
+* 其中index.html是首页，主要呈现我们的数据故事。http://chenliang18.pythonanywhere.com/
 
-* clhl1.html：菜单栏跳转的html页面，内容为全国各省2010-2018年粗离婚率图及对应表格数据
+* clhl1.html：菜单栏跳转的html页面，内容为全国各省2010-2018年粗离婚率图及对应表格数据  http://chenliang18.pythonanywhere.com/clhl1
 
 * clhl2.html：菜单栏跳转的html页面，内容为全国各省离婚率变化趋势图及表格。基于此，我们还做了一个下拉框，可以实现不同地区数据的呈现。
+  http://chenliang18.pythonanywhere.com/clhl2
 
-* jm2.html：菜单栏跳转的html页面，内容为近6年居民人均可支配收入与离婚率图及对应表格数据
+* jm2.html：菜单栏跳转的html页面，内容为近6年居民人均可支配收入与离婚率图及对应表格数据  http://chenliang18.pythonanywhere.com/jm2
 
-* lh8n.html：菜单栏跳转的html页面，内容为近8年学历与离婚率图及表格
+* lh8n.html：菜单栏跳转的html页面，内容为近8年学历与离婚率图及表格  http://chenliang18.pythonanywhere.com/lh8n/
 
-* c1.html：clhl2.html 的内置下拉框的跳转页面，内容为中国东北地区离婚率变化趋势及对应表格数据
+* c1.html：clhl2.html 的内置下拉框的跳转页面，内容为中国东北地区离婚率变化趋势及对应表格数据  http://chenliang18.pythonanywhere.com/c1
 
-* c2.html：clhl2.html 的内置下拉框的跳转页面，内容为中国中南地区离婚率变化趋势及对应表格数据
+* c2.html：clhl2.html 的内置下拉框的跳转页面，内容为中国中南地区离婚率变化趋势及对应表格数据  http://chenliang18.pythonanywhere.com/c2
 
-* c3.html：clhl2.html 的内置下拉框的跳转页面，内容为中国华东地区离婚率变化趋势及对应表格数据
+* c3.html：clhl2.html 的内置下拉框的跳转页面，内容为中国华东地区离婚率变化趋势及对应表格数据  http://chenliang18.pythonanywhere.com/c3
 
-* c4.html：clhl2.html 的内置下拉框的跳转页面，内容为中国华北地区离婚率变化趋势及对应表格数据
+* c4.html：clhl2.html 的内置下拉框的跳转页面，内容为中国华北地区离婚率变化趋势及对应表格数据  http://chenliang18.pythonanywhere.com/c4
 
-* c5.html：clhl2.html 的内置下拉框的跳转页面，内容为中国西北地区离婚率变化趋势及对应表格数据
+* c5.html：clhl2.html 的内置下拉框的跳转页面，内容为中国西北地区离婚率变化趋势及对应表格数据  http://chenliang18.pythonanywhere.com/c5
 
-* c6.html：clhl2.html 的内置下拉框的跳转页面，内容为中国西南地区离婚率变化趋势及对应表格数据
+* c6.html：clhl2.html 的内置下拉框的跳转页面，内容为中国西南地区离婚率变化趋势及对应表格数据  http://chenliang18.pythonanywhere.com/c6
 
 在index.html首页里，我们做了一个菜单栏导航的按钮，点它会出现菜单栏，接着点击不同的标题就可以跳转到我们对应的数据。
 如图：![菜单栏](https://github.com/Chen-feier/finalproject/blob/master/%E5%9B%BE%E7%89%87/1.png)
