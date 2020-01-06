@@ -5,7 +5,6 @@
 
 ## 项目信息
 * 代码github url：https://github.com/Chen-feier/finalproject
-* 云服务器url：http://121.199.73.44:9999/
 * pythonanywhere url:http://chenliang18.pythonanywhere.com/
 
 数据传递描述：
@@ -14,6 +13,7 @@
   * 将csv文件的数据写入mysql数据库
   * 利用flaskORM框架数据库反向生成models
   * 运用def函数，使得图表数据与前端页面连接，可视化图表能正确对应相应的html页面
+  * 符合jinja2语法，合理使用for循环迭代数据类型
  
 项目结构：
   * data： csv数据
