@@ -57,7 +57,19 @@
 
 ## Python文档描述：
 * 我们一共有2个python文件，分别是app.py和models.py。
-app.py负责向前端html传递可视化图表数据，models.py负责向前端html传递csv表格数据。其中app.py中，我们运用多个def函数，且运用flask、pymysql、sqlalchemy等模块，写好准确的路径，保证跳转不会出错。
+app.py负责向前端html传递可视化图表数据，models.py负责向前端html传递csv表格数据。其中app.py中，我们运用多个def函数，且运用flask、pymysql、sqlalchemy等模块，写好准确的路径，保证跳转不会出错。  
+
+* 使用路由原则：
+@app.route('/')
+def hello_world():
+    return render_template('index.html')
+    
+* 把数据库数组放进data中：
+@app.route('/clhl1')
+def clhl1():
+    data = Clhl1.query.filter()
+    return render_template('clhl1.html', **{'data': data})
+
 
 * Models.py中，利用flaskORM框架数据库反向生成models，读取csv文件的数据写入mysql数据库。我们引用了SQLAlchemy模块，链接数据库。运用前端开发框架学习的知识，先运用phpmyadmin把数据库（liang.sql）导入,接着运用Navicat for mysql软件去链接phpmyadmin的数据，接着在app.py文件中定义了数据库配置的相关内容，使得python文件可以顺利链接到后端数据。
 
