@@ -6,7 +6,7 @@
 ## 项目信息
 * 代码github url：https://github.com/Chen-feier/finalproject
 * pythonanywhere url:http://chenliang18.pythonanywhere.com/    
-（因数据库部署较为复杂，若菜单栏的图表及csv无法实现跳转，请老师联系我们！我们reload一下就可以解决数据库断开的问题）
+（因数据库部署较为复杂，连接断开后，事务没有回滚，残留的锁导致后续的查询报错。若菜单栏跳转失败，请老师联系我们！我们reload一下就可以解决问题）
 
 数据传递描述：
   * 首先采用flaks框架和搭建mysql数据库，
