@@ -5,7 +5,8 @@
 
 ## 项目信息
 * 代码github url：https://github.com/Chen-feier/finalproject
-* pythonanywhere url:http://chenliang18.pythonanywhere.com/
+* pythonanywhere url:http://chenliang18.pythonanywhere.com/    
+（因数据库部署较为复杂，若菜单栏的图表及csv无法实现跳转，请老师联系我们！我们reload一下就可以解决数据库断开的问题）
 
 数据传递描述：
   * 首先采用flaks框架和搭建mysql数据库，
@@ -13,7 +14,7 @@
   * 将csv文件的数据写入mysql数据库
   * 利用flaskORM框架数据库反向生成models
   * 运用def函数，使得图表数据与前端页面连接，可视化图表能正确对应相应的html页面
-  * 符合jinja2语法，合理使用for循环迭代数据类型
+  * 符合jinja2语法，合理使用for循环迭代不同的数据类型
  
 项目结构：
   * data： csv数据
@@ -58,6 +59,11 @@
 app.py负责向前端html传递可视化图表数据，models.py负责向前端html传递csv表格数据。其中app.py中，我们运用多个def函数，且运用flask、pymysql、sqlalchemy等模块，写好准确的路径，保证跳转不会出错。
 
 * Models.py中，利用flaskORM框架数据库反向生成models，读取csv文件的数据写入mysql数据库。我们引用了SQLAlchemy模块，链接数据库。运用前端开发框架学习的知识，先运用phpmyadmin把数据库（liang.sql）导入,接着运用Navicat for mysql软件去链接phpmyadmin的数据，接着在app.py文件中定义了数据库配置的相关内容，使得python文件可以顺利链接到后端数据。
+
+* 运用def函数，使得图表数据与前端页面连接，可视化图表能正确对应相应的html页面
+
+* 符合jinja2语法，合理使用for循环迭代不同的数据类型
+ 
 
 
 ## Webapp动作描述：
